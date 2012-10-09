@@ -1,0 +1,7 @@
+<script type="text/javascript" src="js/jquery.min.js"></script>
+<script type="text/javascript" src="js/parse-1.1.5.min.js"></script>
+<script type="text/javascript" src="js/json2.js"></script>
+<script>
+    Parse.initialize("Application ID", "Javascript Key ");
+    
+</script>

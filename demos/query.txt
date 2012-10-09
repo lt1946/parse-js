@@ -1,0 +1,16 @@
+<script>
+    var TestObject = Parse.Object.extend("TestObject");
+    var query=new Parse.Query(TestObject);
+    query.equalTo("foo","bar");
+    query.find({
+        success:function(data){
+                var json=JSON.parse(JSON.stringify(data));
+                for (var i=0; i < json.length; i++) {
+                      console.log(json[i].foo)
+                    };
+        },
+        error:function(error){
+                alert(error);
+        }
+    })
+</script>

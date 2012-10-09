@@ -1,0 +1,32 @@
+<!doctype html>
+<html manifest=”/cache.manifest”>
+	<head>
+	  <meta charset="utf-8">
+	  <title>My Parse App</title>
+	  <meta name="description" content="My Parse App">
+	  <meta name="viewport" content="width=device-width">
+	  <link rel="stylesheet" href="css/page.css">
+	  <script type="text/javascript" src="js/1k-min.js"></script>   
+	  <script type="text/javascript" src="js/highlight-min.js"></script>   
+	  <script>
+	    !function(J){
+		    J.highlight.init({    	//组件初始化
+		        skin:'bop',		//默认皮肤
+		        edit:true,		//开启编辑运行
+		        JsRequire:''		//导入js
+		    });
+	    }($1k);
+	  </script>
+	</head>
+	<body>
+	  <div id="main">
+		<textarea class="lang-html"> 
+		</textarea>
+		  <div id="code">
+		  	<a href="demos/head.txt" target="_blank">head</a>
+		  	<a href="demos/query.txt" target="_blank">query</a>
+		  	<a href="demos/save.txt" target="_blank">save</a>
+		  </div>
+	  </div>
+	</body>
+</html>

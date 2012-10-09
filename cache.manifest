@@ -1,0 +1,10 @@
+CACHE:
+js/*
+css/*
+demos/*
+
+NETWORK:
+
+
+FALLBACK:
+/api offline.html
